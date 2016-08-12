@@ -13,22 +13,21 @@
   </ion-side-menu-content>
 
   <ion-side-menu side="left">
-    <ion-header-bar class="bar-stable">
-      <h1 class="title">Left</h1>
-    </ion-header-bar>
     <ion-content>
       <ion-list>
+        <ion-items class="item item-stable item-avatar item-text-wrap">
+          <img src="img/ionic.png" style="" />
+          <p style="font-size: x-large;">H.A.N.C.</p>
+          <code>Help Attend Nature's Call</code>
+        </ion-items>
         <ion-item menu-close ng-click="login()">
           Login
         </ion-item>
-        <ion-item menu-close href="#/app/search">
+        <ion-item menu-close href="#/menu/search">
           Search
         </ion-item>
-        <ion-item menu-close href="#/app/browse">
+        <ion-item menu-close href="#/menu/browse">
           Browse
-        </ion-item>
-        <ion-item menu-close href="#/app/playlists">
-          Playlists
         </ion-item>
       </ion-list>
     </ion-content>
