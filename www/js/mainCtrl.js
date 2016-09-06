@@ -3,7 +3,8 @@
   'use strict';
 
   angular.module('hancApplication.controllers', [])
-    .controller('AppCtrl', function ($scope, $ionicModal, $timeout) {
+
+    .controller('mainCtrl', function ($scope, $ionicModal, $timeout) {
 
       $scope.loginData = {};
 

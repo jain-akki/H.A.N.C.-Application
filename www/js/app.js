@@ -24,7 +24,7 @@
         url: '/menu',
         abstract: true,
         templateUrl: 'templates/sideMenu.html',
-        controller: 'AppCtrl'
+        controller: 'mainCtrl'
       })
       .state('menu.search', {
         url: '/search',
